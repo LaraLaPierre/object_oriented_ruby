@@ -1,20 +1,26 @@
-# C. Use hashes with symbols to represent the following scenario:
-#      C.1 - You are the owner of a store that sells items (you decide what specifically). Each item has various properties such as color, price, etc.
-#      C.2 - Represent 3 items using hashes. Each hash should have the same keys with different values.
-#      C.3 - Be sure to use symbols for the keys. Try creating hashes using both types of hash symbol syntaxes. (Ruby syntax {:a => 123} vs. “JavaScript” syntax {a: 123}).
+# Open the store_item.rb file you created from the previous lesson.
+# • Create a new module in your store item.
+# • Create separate files for each of your classes and modules.
+# • Create a separate main.rb file to demonstrate how each class and module work.
 
-# Bonus: Read more about Ruby’s hash symbol syntax:
+class Above_Head_Wear < Accessories
+  def initialize
 
-# item_1 = {:name => "scarf", :color => "red", :price => 10} #Ruby format 
-# item_2 = {:name => "gloves", :color => "blue", :price => 8} #Ruby format 
-# item_3 = {name: "hat", color: "black", price: 12} #JavaScript format 
+  end
 
 
-# Exercise: Rewrite your store items using a class instead of a hash.
-# a) Choose which attributes should have “reader” methods and which attributes should have “writer” methods.
-# b) Create an instance from your store item class. Use puts statements to print the 3 attributes individually to the terminal.
 
-class Store 
+
+
+
+
+
+
+
+
+
+
+class Accessories
   attr_reader :name, :color, :price
   attr_writer :color
   def initialize(input_options)
@@ -41,19 +47,19 @@ class Store
 
 end 
 
-item_1 = Store.new(
+item_1 = Accessories.new(
                   name: "scarf", 
                   color: "red",
                   price: 10,
                   )
 
-item_2 = Store.new(
+item_2 = Accessories.new(
                   name: "gloves",
                   color: "blue", 
                   price: 8
                   )
 
-item_3 = Store.new(
+item_3 = Accessories.new(
                   name: "hat",
                   color: "black", 
                   price: 12

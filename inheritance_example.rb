@@ -1,11 +1,7 @@
-# • Open the inheritance_example.rb file from the previous example.
-
-# • Add car specific attributes to the Car class (fuel, make, model, etc.) and bicycle specific attributes to the Bicycle class (speed, type, weight, etc.). Use the super method to keep the initialize methods DRY.
-
-# • Open the store_item.rb file you created from the previous lesson.
-
-# • Some of your store items are food, which have a shelf life. Create a class called Food which inherits from your original class and has an additional property of shelf_life.
-
+# Open the store_item.rb file you created from the previous lesson.
+# • Create a new module in your store item.
+# • Create separate files for each of your classes and modules.
+# • Create a separate main.rb file to demonstrate how each class and module work.
 
 
 
